@@ -1,0 +1,27 @@
+{
+  "name": "node-proxy-server",
+  "version": "1.0.0",
+  "description": "My proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "deploy": "echo Current branch: $TRAVIS_BRANCH",
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kryvokhyzha/Node-proxy-server.git"
+  },
+  "keywords": [
+    "proxy",
+    "server"
+  ],
+  "author": "Roman Kryvokhyzha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kryvokhyzha/Node-proxy-server/issues"
+  },
+  "homepage": "https://github.com/kryvokhyzha/Node-proxy-server#readme"
+}
