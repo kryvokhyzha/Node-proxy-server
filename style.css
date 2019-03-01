@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #43853d;
+  color: white;
+  padding: .5em;
+  font-family: 'Consolas'
+}
