@@ -4,9 +4,10 @@
   "description": "My proxy server",
   "main": "index.js",
   "scripts": {
-    "test": "eslint .",
+    "test": "echo \"No tests\"",
     "start": "node index.js",
     "lint": "eslint .",
+    "pretest": "npm run lint",
     "deploy": "echo Current branch: $TRAVIS_BRANCH",
     "build": ""
   },
