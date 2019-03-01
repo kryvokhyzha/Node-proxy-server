@@ -62,3 +62,6 @@ typings/
 
 # DS_Store
 .DS_Store
+
+# ignore .eslint.yml because Travis have a Unix system
+.eslintrc.yml
