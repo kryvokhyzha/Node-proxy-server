@@ -8,5 +8,3 @@ before_script:
 script:
   - npm run lint
   - npm run test
-  - npm run deploy
-  - now alias --token=$ZEIT_KEY -V 2 Node-proxy-server-execution-$TRAVIS_BRANCH
