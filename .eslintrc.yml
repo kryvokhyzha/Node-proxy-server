@@ -14,9 +14,7 @@ rules:
         let: 2
         const: 3
       MemberExpression: 1
-  linebreak-style:
-    - error
-    - unix
+  linebreak-style: 0
   quotes:
     - error
     - single
