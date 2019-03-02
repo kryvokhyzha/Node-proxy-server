@@ -8,7 +8,7 @@
     "start": "node index.js",
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "deploy": "echo Current branch: $TRAVIS_BRANCH",
+    "deploy": "echo Current branch: $TRAVIS_BRANCH, $ZEIT_KEY",
     "build": ""
   },
   "repository": {
