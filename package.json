@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/kryvokhyzha/Node-proxy-server#readme",
   "devDependencies": {
-    "eslint": "^5.15.0"
+    "eslint": "^5.15.0",
+    "now": "^14.0.2"
   }
 }
