@@ -1,10 +1,9 @@
 language: node_js
 node_js:
   - "10"
-install:
-  - npm install eslint
 before_script:
   - npm ci
 script:
   - npm run lint
   - npm run test
+  - npm run deploy
