@@ -8,7 +8,7 @@
     "start": "node index.js",
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "deploy": "echo Current branch: $TRAVIS_BRANCH",
+    "deploy": "echo Current branch: $TRAVIS_BRANCH, $ZEIT_KEY",
     "build": ""
   },
   "repository": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/kryvokhyzha/Node-proxy-server#readme",
   "devDependencies": {
-    "eslint": "^5.15.0"
+    "eslint": "^5.15.0",
+    "now": "^14.0.2"
   }
 }
