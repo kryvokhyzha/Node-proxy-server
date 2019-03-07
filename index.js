@@ -5,7 +5,7 @@ const net = require('net');
 const util = require('util');
 const url = require('url');
 
-const port = 3030;
+const port = process.env.PORT || 3030;
 
 const server = http.createServer((req, res) => {
   // res - ответ который отправим в браузер
