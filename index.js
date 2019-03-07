@@ -30,7 +30,8 @@ server.on('connect', (req, clientSocket) => {
   // console.log('Method: ' + req.method + ' ----> ' + 'URL: ' + req.url);
   const ReqUrl = req.url;
   const result = ReqUrl.includes('//') ?
-    url.parse(ReqUrl) : url.parse('//' + ReqUrl, false, true);
+    url.parse(ReqUrl) :
+    url.parse('//' + ReqUrl, false, true);
 
   const serverSocket = net.connect(result.port, result.hostname);
   serverSocket.on('connect', () => {
